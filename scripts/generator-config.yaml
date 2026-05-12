@@ -1,0 +1,15 @@
+generatorName: go
+outputDir: .
+inputSpec: ../openapi/goodsender.yaml
+gitUserId: good-sender
+gitRepoId: go-sdk
+packageVersion: 0.1.0
+additionalProperties:
+  httpUserAgent: goodsender-go/0.1.0
+  packageName: goodsender
+  packageVersion: 0.1.0
+  packageUrl: https://github.com/good-sender/go-sdk
+  generateInterfaces: true
+  withGoMod: true
+  # Module path for go.mod. Repo: github.com/good-sender/go-sdk
+  goImportAlias: goodsender
