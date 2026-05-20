@@ -1,6 +1,5 @@
 .gitignore
 .travis.yml
-api/openapi.yaml
 api_domains.go
 api_emails.go
 client.go
@@ -53,6 +52,4 @@ model_template_email_request_template.go
 model_template_email_response.go
 model_tracking_settings.go
 response.go
-test/api_domains_test.go
-test/api_emails_test.go
 utils.go
